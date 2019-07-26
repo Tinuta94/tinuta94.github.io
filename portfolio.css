@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color:burlywood;
+    padding: 20px;
+    font-family: Arial;
+  }
+  span {
+      font-size: 3ch;
+      margin: 0 -90px 0 0;
+  }
+  
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  p {
+      color: white;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+    color:black;
+  }
+  a {
+      color: white;
+  }
+  a:hover {
+      color: black;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  .mypicture {
+      height: 15%;
+      width: 15%;
+      margin: -15% -10% 0 75%;
+  }
+  
+ 
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+ 
+  .content {
+    background-color: black;
+    padding: 10px;
+  }
+  
+  
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+h3 {
+    color: white;
+}
+ul li {
+    color: white;
+}
